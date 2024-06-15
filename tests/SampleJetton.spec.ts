@@ -7,7 +7,8 @@ describe('SampleJetton', () => {
     let blockchain: Blockchain;
     let deployer: SandboxContract<TreasuryContract>;
     let sampleJetton: SandboxContract<SampleJetton>;
-
+    const testvar = "testvar";
+    console.log(testvar);
     beforeEach(async () => {
         blockchain = await Blockchain.create();
 
